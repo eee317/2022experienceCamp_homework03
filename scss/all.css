@@ -1,0 +1,460 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+nav {
+  background-color: #AA0601;
+  height: 80px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bg-color {
+  background-color: #AA0601;
+}
+
+.bg-color-light {
+  background-color: #FBF2F2;
+}
+
+.banner {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true");
+  height: 787px;
+  background-size: cover;
+  background-position: 70% 0%;
+}
+
+.pading-25-32 {
+  padding: 25px 32px;
+}
+
+.pading-25-0-25-32 {
+  padding: 25px 0px 25px 32px;
+}
+
+.pading-80 {
+  padding: 80px;
+}
+
+.pading-32-0 {
+  padding: 32px 0px;
+}
+
+.pading-top-60 {
+  padding-top: 60px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.ml-48 {
+  margin-left: 48px;
+}
+
+.ml-32 {
+  margin-left: 32px;
+}
+
+.banner-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 787px;
+}
+
+.border-top {
+  border-top: 1px solid #ffff;
+}
+
+.border-left {
+  border-left: 1px solid #ffff;
+}
+
+.text-primary {
+  color: #650300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #ffff;
+}
+
+.button-primary {
+  padding: 6px 12px;
+  background-color: #AA0601;
+}
+
+.w25 {
+  width: 23%;
+}
+
+.gap-24 {
+  gap: 1%;
+}
+
+.icon-humburger {
+  display: none;
+}
+
+.header-iphone-list {
+  display: none;
+}
+
+.section-2 img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.list-call-show {
+  display: none;
+}
+
+.footer-imgs img {
+  width: 48px;
+}
+
+.footer-list li {
+  margin-right: 48px;
+}
+
+.footer-connection {
+  padding-top: 35px;
+  padding-bottom: 27px;
+}
+
+.footer-connection li {
+  margin-bottom: 8px;
+}
+
+.footer-connection i {
+  margin-right: 22px;
+  font-size: 36px;
+}
+
+.footer-connection p {
+  font-size: 54px;
+}
+
+.contener {
+  margin: 0 auto;
+  max-width: 1296px;
+  padding: 0px 12px;
+}
+
+.pc-flex-jcsb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-content-s-b {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .contener {
+    max-width: 768px;
+    padding: 0px 36px;
+  }
+  .w25 {
+    width: 49%;
+  }
+  .pading-25-32 {
+    padding: 25px 12px;
+    display: block;
+  }
+  .pading-25-0-25-32 {
+    padding: 25px 0px 25px 12px;
+    display: block;
+  }
+  .pading-80 {
+    padding: 40px 36px;
+  }
+  .footer-imgs img {
+    width: 40px;
+  }
+  .footer-imgs .ml-32 {
+    margin-left: 16px;
+  }
+  .footer-connection i {
+    font-size: 36px;
+  }
+  .footer-connection p {
+    font-size: 40px;
+  }
+  .button-primary {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 478px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-weight: bold;
+  }
+  header .pc-flex-jcsb {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .header-iphone-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    color: #ffff;
+  }
+  header .header-iphone-list li {
+    width: 50%;
+    padding: 12px 0px;
+  }
+  header .header-iphone-list li:active {
+    background-color: #650300;
+  }
+  header .icon-humburger {
+    display: block;
+    color: #ffff;
+    font-size: 20px;
+  }
+  .pading-top-60 {
+    padding-top: 24px;
+  }
+  .pading-80 {
+    padding: 40px 14px;
+  }
+  .banner, .banner-flex {
+    height: 396px;
+  }
+  .banner {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
+  }
+  .button-primary {
+    margin-top: 14px;
+    font-size: 20px;
+  }
+  .contener {
+    max-width: 375px;
+    padding: 0px 20px;
+  }
+  .jq-list-call-none {
+    display: none;
+  }
+  .list-call-none {
+    display: none;
+  }
+  .list-call-show {
+    display: inline-block;
+  }
+  .w25 {
+    width: 100%;
+  }
+  .footer-imgs img {
+    width: 24px;
+  }
+  .footer-imgs .ml-32 {
+    margin-left: 8px;
+  }
+  .footer-connection {
+    padding-top: 0px;
+  }
+  .footer-connection i {
+    font-size: 18px;
+  }
+  .footer-connection p {
+    font-size: 16px;
+  }
+  .footer-texts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer .pc-flex-jcsb {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer .pc-flex-jcsb .pading-32-0 {
+    padding: 8px 0px;
+  }
+  footer .pc-flex-jcsb ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 16px;
+  }
+  footer .pc-flex-jcsb ul .ml-48 {
+    margin: 0;
+  }
+  footer .pc-flex-jcsb ul li {
+    margin-bottom: 8px;
+  }
+}
+/*# sourceMappingURL=all.css.map */

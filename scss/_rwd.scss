@@ -1,0 +1,151 @@
+@media (max-width:768px) {
+  .contener {
+    max-width: 768px;
+    padding: 0px 36px;
+  }
+  .w25 {
+    width: 49%;
+  }
+  .pading-25-32 {
+    padding: 25px 12px;
+    display: block;
+  }
+  .pading-25-0-25-32 {
+    padding: 25px 0px 25px 12px;
+    display: block;
+  }
+  .pading-80 {
+    padding: 40px 36px;
+  }
+  .footer-imgs {
+    img {
+      width: 40px;
+    }
+    .ml-32 {
+      margin-left: 16px;
+    }
+  }
+  .footer-connection {
+    i {
+      font-size: 36px;
+    }
+    p {
+      font-size: 40px; 
+    }
+  }
+  .button-primary {
+    font-size: 20px;
+  }
+}
+@media (max-width:478px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-weight: bold;
+  }
+  header {
+    .pc-flex-jcsb {
+      align-items: center;
+    }
+    .header-iphone-list {
+      display: flex;
+      flex-wrap: wrap;
+      color: $white;
+      li {
+        width: 50%;
+        padding: 12px 0px;
+        &:active {
+          background-color: $secondary;
+        }
+      }
+    }
+    .icon-humburger {
+      display: block;
+      color: $white;
+      font-size: 20px;
+    }
+  }
+  .pading-top-60 {
+    padding-top: 24px;
+  }
+  .pading-80 {
+    padding: 40px 14px;
+  }
+  .banner,.banner-flex {
+    height: 396px;
+  }
+  .banner {
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true');
+  }
+  .button-primary {
+    margin-top:14px;
+    font-size: 20px;
+  }
+  .contener {
+    max-width: 375px;
+    padding: 0px 20px;
+  }
+  .jq-list-call-none {
+    display: none;
+  }
+  .list-call-none {
+    display: none;
+  }
+  .list-call-show {
+    display: inline-block;
+  }
+  .w25 {
+    width: 100%;
+  }
+  .footer-imgs {
+    img {
+      width: 24px;
+    }
+    .ml-32 {
+      margin-left: 8px;
+    }
+  }
+  .footer-connection {
+    padding-top: 0px;
+    i {
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px; 
+      }
+    }
+  .footer-texts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  footer {
+    .pc-flex-jcsb {
+      flex-direction: column;
+      justify-content:space-around;
+      align-items: flex-start;
+      .pading-32-0 {
+        padding: 8px 0px;
+      }
+      ul {
+        .ml-48 {
+          margin: 0;
+        }
+        li {
+          margin-bottom: 8px;
+        }
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
